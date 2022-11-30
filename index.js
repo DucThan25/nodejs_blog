@@ -7,7 +7,7 @@ app.get('/tin-tuc', (req, res) => {
     var b =2
 
     var c = a + b
-    return res.send('Hello World!')
+    return res.send('123!')
 })
 
 app.listen(port, () => {
